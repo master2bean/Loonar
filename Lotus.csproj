@@ -34,6 +34,8 @@
 
     <PackageReference Include="GitInfo" Version="3.0.4" />
 
+    <PackageReference Include="VentFramework" Version="1.2.3.412" />
+
     <PackageReference Include="YamlDotNet" Version="13.1.0" />
     
     <Reference Condition="$(Debug) == 'true'" Include="../VentFramework/bin/Debug/net6.0/VentFramework.dll">
